@@ -143,7 +143,7 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-CORS_ALLOWED_ORIGINS = ["https://your-frontend.vercel.app"]  # Update later
+CORS_ALLOWED_ORIGINS = ["https://transportation-frontend-five.vercel.app"]  # Update later
 
 
 # REST Framework settings
