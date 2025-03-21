@@ -1,0 +1,28 @@
+### Create a new trip
+POST http://127.0.0.1:8000/api/trips
+Content-Type: application/json
+
+{
+    "pickup_location": {
+        "name": "United Nations Secretariat Building, 405, East 42nd Street, Manhattan, NY, USA",
+        "latitude": 40.7489457,
+        "longitude": -73.9680842
+    },
+    "dropoff_location": {
+        "name": "Greendale, Milwaukee County, Wisconsin, USA",
+        "latitude": 42.9410801,
+        "longitude": -88.0050494
+    },
+    "cycle_used": "4"
+}
+
+
+
+### Get all trips
+
+GET http://127.0.0.1:8000/api/trips
+
+
+### Get trip by id
+GET http://127.0.0.1:8000/api/trips/27
+
