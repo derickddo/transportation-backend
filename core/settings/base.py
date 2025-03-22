@@ -136,7 +136,7 @@ STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesSto
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-CORS_ALLOWED_ORIGINS = ["https://transportation-frontend-five.vercel.app"]  # Update later
+CORS_ALLOWED_ORIGINS = ["https://transportation-frontend-five.vercel.app", "http://localhost:5173"]  # Update later
 
 
 # REST Framework settings
